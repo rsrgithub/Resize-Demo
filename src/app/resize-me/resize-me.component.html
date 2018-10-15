@@ -1,0 +1,29 @@
+<div class="rectangle" #root>
+  <div class="child">
+    HELLO
+  </div>
+
+  <div #hgripper
+       class="h-gripper">
+  </div>
+
+  <div #vgripper
+       class="v-gripper">
+  </div>
+
+  <div #bothgripper
+       class="both-gripper">
+  </div>
+</div>
+
+<ng-container *ngIf="obs$ | async">
+
+</ng-container>
+
+<!-- <ng-container *ngIf="vGripperMouseDown$ | async">
+
+</ng-container>
+
+<ng-container *ngIf="bothGripperMouseDown$ | async">
+
+</ng-container> -->
